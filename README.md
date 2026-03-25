@@ -1,9 +1,9 @@
 #Lab: Xây dựng chính sách an toàn Firewall bằng Iptables trên Linux
-Đề tài thực nghiệm xây dựng hệ thống tường lửa (Firewall) sử dụng Iptables trên hệ điều hành Linux để bảo vệ mô hình mạng Cơ sở 1 cho Học viện Kỹ thuật Mật mã[cite: 1, 6, 73].
+Đề tài thực nghiệm xây dựng hệ thống tường lửa (Firewall) sử dụng Iptables trên hệ điều hành Linux để bảo vệ mô hình mạng Cơ sở 1 cho Học viện Kỹ thuật Mật mã.
 ---
 
 ## Tổng quan
-[cite_start]Hệ thống áp dụng nguyên tắc an toàn **"Deny All – Permit by Exception"** (Chặn tất cả - Chỉ mở những gì được cấp phép) để kiểm soát dữ liệu giữa 3 vùng mạng: **LAN nội bộ, DMZ và Internet**[cite: 100, 163, 676].
+Hệ thống áp dụng nguyên tắc an toàn **"Deny All – Permit by Exception"** (Chặn tất cả - Chỉ mở những gì được cấp phép) để kiểm soát dữ liệu giữa 3 vùng mạng: **LAN nội bộ, DMZ và Internet**.
 ---
 
 ###Các chính sách được triển khai
